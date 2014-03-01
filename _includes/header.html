@@ -8,6 +8,9 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- custom bits -->
     <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,9 +38,15 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <!-- TODO: set class="active" as appropriate -->
-            <li><a href="/">About</a></li>
-            <li><a href="groovy.html">Groovy Status</a></li>
-            <li><a href="hydro.html">Hydro Status</a></li>
+            <li {% if page.url == '/index.html' %} class="active"{% endif %}>
+              <a href="index.html">About</a>
+            </li>
+            <li {% if page.url == '/groovy.html' %}class="active"{% endif %}>
+              <a href="groovy.html">Groovy Status</a>
+            </li>
+            <li {% if page.url == '/hydro.html' %}class="active"{% endif %}>
+              <a href="hydro.html">Hydro Status</a>
+            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
