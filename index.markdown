@@ -9,6 +9,6 @@ Welcome to the homepage of the ROS packages for ARM. These builds should allow R
 
 Detailed installation instructions can be found on the ROS wiki:
 <p><a href="http://wiki.ros.org/hydro/Installation/UbuntuARM"
-   class="btn btn-primary btn-large">Hydro</a></p>
+   class="btn btn-primary btn-large">Hydro Installation</a></p>
 <p><a href="http://wiki.ros.org/groovy/Installation/UbuntuARM"
-   class="btn btn-primary btn-large">Groovy</a></p>
+   class="btn btn-primary btn-large">Groovy Installation</a></p>
